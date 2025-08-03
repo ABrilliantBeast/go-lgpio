@@ -23,11 +23,11 @@ TRANSLATOR:
       - {action: replace, from: "_t$"}
       - {action: replace, from: "_s$"}
       - {action: replace, from: "_p$"}
-      - {action: ignore, from: "^lgGpioAlert"}
-      - {action: ignore, from: "^lgGpioAlertsFunc_t$"}
-    function:
-      - {action: ignore, from: "^lgGpioSetAlertsFunc$" }
-      - {action: ignore, from: "^lgGpioSetSamplesFunc$"}
+#      - {action: ignore, from: "^lgGpioAlert"}
+#      - {action: ignore, from: "^lgGpioAlertsFunc_t$"}
+#    function:
+#      - {action: ignore, from: "^lgGpioSetAlertsFunc$" }
+#      - {action: ignore, from: "^lgGpioSetSamplesFunc$"}
     private:
       - {transform: unexport}
   PtrTips:
@@ -50,4 +50,4 @@ TRANSLATOR:
       - {target: ^lgThreadStop$, tips: [sref]}
       - {target: ^lguSbcName$, tips: [arr, size]}
       - {target: ^lguGetInternal$, tips: [0, sref]}
-      - {target: ^dummy$, tips: [size, arr]}
+#      - {target: ^dummy$, tips: [size, arr]}
