@@ -50,4 +50,5 @@ TRANSLATOR:
       - {target: ^lgThreadStop$, tips: [sref]}
       - {target: ^lguSbcName$, tips: [arr, size]}
       - {target: ^lguGetInternal$, tips: [0, sref]}
+      - {target: ^lguErrorText$, self: arr}
       - {target: ^dummy$, tips: [size, arr]}
