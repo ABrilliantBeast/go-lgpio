@@ -1,3 +1,3 @@
-My first attempt at creating CGO binding for the lgpio (https://github.com/joan2937/lg.git) library, which seems to be the most comprehensive library available for the Raspberry Pi.  It supports the most features and hardware.  This is a work in progress, so if you see something wrong, make an issue or fix it yourself.
+My first attempt at creating CGO binding for the [lgpio] (https://github.com/joan2937/lg.git) library, which seems to be the most comprehensive library available for the Raspberry Pi.  It supports the most features and hardware.  This is a work in progress, so if you see something wrong, make an issue or fix it yourself.
 
 This uses [c-for-go](https://github.com/xlab/c-for-go/tree/master) to generate the CGO interface code.  There are portions that are not working, especially around calling go callbacks. The alerts code in particular.  Those will have to be done by manual code unless there is some workaround.  
